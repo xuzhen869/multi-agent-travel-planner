@@ -18,8 +18,8 @@ class Settings(BaseSettings):
     LLM_MODEL: str = "deepseek-chat"  # deepseek-chat(V3) / deepseek-reasoner(R1)
     DEEPSEEK_API_KEY: str = ""
     DEEPSEEK_BASE_URL: str = "https://api.deepseek.com"
-    # 兼容旧配置（LLM_PROVIDER=anthropic 时使用）
-    CLAUDE_API_KEY: str = ""
+    # LLM_PROVIDER=anthropic 时使用
+    ANTHROPIC_API_KEY: str = ""
 
     # ——— Amadeus ———
     AMADEUS_API_KEY: str = ""

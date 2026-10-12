@@ -61,15 +61,15 @@ def get_llm(temperature: float = 0.3, max_tokens: int = 4096, **kwargs):
             **kwargs,
         )
 
-    # 默认 Anthropic（兼容旧配置）
-    if not settings.CLAUDE_API_KEY:
-        logger.warning("CLAUDE_API_KEY 未配置，使用降级 LLM（规则兜底）")
+    # 默认 Anthropic
+    if not settings.ANTHROPIC_API_KEY:
+        logger.warning("ANTHROPIC_API_KEY 未配置，使用降级 LLM（规则兜底）")
         return _UnavailableLLM("anthropic")
     from langchain_anthropic import ChatAnthropic
 
     return ChatAnthropic(
         model=settings.LLM_MODEL,
-        api_key=settings.CLAUDE_API_KEY,
+        api_key=settings.ANTHROPIC_API_KEY,
         temperature=temperature,
         max_tokens=max_tokens,
         **kwargs,
