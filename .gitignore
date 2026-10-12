@@ -1,0 +1,48 @@
+# ─── 环境变量 ───
+.env
+.env.local
+.env*.local
+!.env.example
+
+# ─── 数据库 ───
+*.db
+*.db.bak
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ─── Node / Next.js ───
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# ─── 本地依赖二进制（体积过大，请自行安装）───
+redis-windows/
+pg16-setup.exe
+
+# ─── IDE ───
+.idea/
+.vscode/
+*.swp
+
+# ─── OS ───
+.DS_Store
+Thumbs.db
+
+# ─── Docker ───
+pgdata/
+
+# ─── 日志 ───
+*.log

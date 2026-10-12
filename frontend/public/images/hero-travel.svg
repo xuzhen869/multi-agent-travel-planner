@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EEF2FF"/>
+      <stop offset="100%" stop-color="#E0E7FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="url(#sky)" rx="24"/>
+
+  <!-- 装饰圆 -->
+  <circle cx="650" cy="100" r="180" fill="#C7D2FE" opacity="0.3"/>
+  <circle cx="150" cy="400" r="120" fill="#DDD6FE" opacity="0.3"/>
+  <circle cx="700" cy="400" r="80" fill="#C7D2FE" opacity="0.2"/>
+
+  <!-- 世界地图简化路径 -->
+  <g opacity="0.12" fill="#4F46E5">
+    <!-- 简化各大洲轮廓 -->
+    <ellipse cx="400" cy="150" rx="120" ry="60"/>
+    <ellipse cx="300" cy="300" rx="80" ry="100"/>
+    <ellipse cx="550" cy="280" rx="90" ry="70"/>
+    <ellipse cx="620" cy="380" rx="60" ry="50"/>
+  </g>
+
+  <!-- 飞机轨迹 -->
+  <path d="M 100,120 Q 250,80 380,140 Q 500,190 680,100" stroke="#4F46E5" stroke-width="2" stroke-dasharray="8,6" fill="none" opacity="0.4"/>
+  <g transform="translate(380, 135) rotate(-15)">
+    <path d="M0,-8 L16,0 L0,8 L4,0 Z" fill="#4F46E5"/>
+  </g>
+
+  <!-- 指南针 -->
+  <g transform="translate(680, 340)">
+    <circle cx="0" cy="0" r="55" fill="white" stroke="#4F46E5" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="45" fill="#F5F3FF"/>
+    <path d="M0,-40 L8,0 L0,40 L-8,0 Z" fill="url(#accent)"/>
+    <path d="M0,-40 L0,40 L-8,0 Z" fill="#3730A3"/>
+    <path d="M-35,0 L0,-8 L35,0 L0,8 Z" fill="#A5B4FC"/>
+    <text x="0" y="-50" text-anchor="middle" font-size="10" fill="#4F46E5" font-weight="bold">N</text>
+  </g>
+
+  <!-- 人物 -->
+  <g transform="translate(180, 180)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="160" rx="50" ry="60" fill="url(#accent)" opacity="0.9"/>
+    <!-- 头 -->
+    <circle cx="0" cy="80" r="35" fill="#4F46E5"/>
+    <!-- 帽子 -->
+    <ellipse cx="0" cy="55" rx="42" ry="8" fill="#3730A3"/>
+    <rect x="-25" y="30" width="50" height="25" rx="12" fill="#3730A3"/>
+    <!-- 行李箱 -->
+    <rect x="55" y="130" width="45" height="55" rx="8" fill="#F59E0B"/>
+    <rect x="52" y="135" width="51" height="8" rx="3" fill="#D97706"/>
+    <circle cx="77" cy="157" r="4" fill="#D97706"/>
+    <!-- 拉杆 -->
+    <line x1="77" y1="130" x2="77" y2="90" stroke="#D97706" stroke-width="3" stroke-linecap="round"/>
+    <!-- 手 -->
+    <circle cx="50" cy="110" r="12" fill="#4F46E5"/>
+  </g>
+
+  <!-- 地标建筑 -->
+  <g transform="translate(520, 150)">
+    <!-- 东京塔简化 -->
+    <rect x="15" y="60" width="10" height="120" fill="#6366F1" rx="2"/>
+    <rect x="10" y="55" width="20" height="8" fill="#4F46E5" rx="2"/>
+    <rect x="13" y="35" width="14" height="22" fill="#818CF8" rx="3"/>
+    <rect x="18" y="10" width="4" height="28" fill="#6366F1"/>
+    <circle cx="20" cy="8" r="5" fill="#C7D2FE"/>
+  </g>
+
+  <!-- 相机图标 -->
+  <g transform="translate(440, 250)">
+    <rect x="-15" y="-10" width="40" height="28" rx="6" fill="#F59E0B"/>
+    <rect x="-10" y="-12" width="14" height="4" rx="2" fill="#D97706"/>
+    <circle cx="5" cy="4" r="9" fill="#1F2937" opacity="0.3"/>
+    <circle cx="5" cy="4" r="6" fill="#1F2937" opacity="0.5"/>
+    <circle cx="2" cy="1" r="2" fill="white" opacity="0.3"/>
+  </g>
+
+  <!-- 行李标签 -->
+  <g transform="translate(300, 360)">
+    <rect x="-60" y="-20" width="120" height="45" rx="10" fill="white" stroke="#C7D2FE" stroke-width="1.5"/>
+    <rect x="-55" y="-15" width="110" height="10" rx="2" fill="#EEF2FF"/>
+    <line x1="-50" y1="5" x2="40" y2="5" stroke="#C7D2FE" stroke-width="1.5"/>
+    <line x1="-50" y1="14" x2="20" y2="14" stroke="#C7D2FE" stroke-width="1.5"/>
+    <circle cx="50" cy="2" r="6" fill="none" stroke="#4F46E5" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" fill="none">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EEF2FF"/>
+      <stop offset="100%" stop-color="#E0E7FF"/>
+    </linearGradient>
+    <linearGradient id="fg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="280" height="200" fill="url(#bg1)" rx="16"/>
+  <!-- 人物画像卡片 -->
+  <rect x="40" y="30" width="200" height="100" rx="12" fill="white" stroke="#C7D2FE" stroke-width="1.5"/>
+  <circle cx="100" cy="65" r="18" fill="url(#fg1)"/>
+  <text x="130" y="62" font-size="12" fill="#4F46E5" font-weight="bold">旅行人格分析</text>
+  <text x="130" y="78" font-size="10" fill="#9CA3AF">年轻情侣·美食文化派</text>
+  <rect x="60" y="100" width="50" height="6" rx="3" fill="#E0E7FF"/>
+  <rect x="115" y="100" width="60" height="6" rx="3" fill="#E0E7FF"/>
+  <rect x="60" y="112" width="80" height="6" rx="3" fill="#E0E7FF"/>
+  <!-- 标签 -->
+  <rect x="150" y="118" width="36" height="16" rx="8" fill="#F59E0B" opacity="0.15"/>
+  <text x="159" y="129" font-size="8" fill="#D97706" text-anchor="middle">美食派</text>
+  <rect x="190" y="118" width="36" height="16" rx="8" fill="#10B981" opacity="0.15"/>
+  <text x="199" y="129" font-size="8" fill="#059669" text-anchor="middle">中等预算</text>
+  <!-- 底部文本 -->
+  <text x="140" y="170" text-anchor="middle" font-size="12" fill="#6366F1" font-weight="600">AI 分析偏好，生成专属旅行人格</text>
+</svg>

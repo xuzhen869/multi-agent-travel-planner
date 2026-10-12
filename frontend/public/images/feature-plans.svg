@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" fill="none">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+  <rect width="280" height="200" fill="url(#bg2)" rx="16"/>
+  <!-- 三张卡片 -->
+  <rect x="20" y="15" width="72" height="90" rx="10" fill="white" stroke="#FDE68A" stroke-width="1"/>
+  <rect x="26" y="22" width="60" height="8" rx="3" fill="#F59E0B"/>
+  <rect x="26" y="35" width="45" height="5" rx="2" fill="#FEF3C7"/>
+  <rect x="26" y="45" width="55" height="5" rx="2" fill="#FEF3C7"/>
+  <rect x="26" y="60" width="40" height="5" rx="2" fill="#FEF3C7"/>
+  <text x="56" y="88" text-anchor="middle" font-size="11" fill="#D97706" font-weight="bold">高性价比</text>
+
+  <rect x="104" y="15" width="72" height="90" rx="10" fill="white" stroke="#FDE68A" stroke-width="1"/>
+  <rect x="110" y="22" width="60" height="8" rx="3" fill="#EF4444"/>
+  <rect x="110" y="35" width="50" height="5" rx="2" fill="#FEF3C7"/>
+  <rect x="110" y="45" width="45" height="5" rx="2" fill="#FEF3C7"/>
+  <rect x="110" y="60" width="55" height="5" rx="2" fill="#FEF3C7"/>
+  <text x="140" y="88" text-anchor="middle" font-size="11" fill="#DC2626" font-weight="bold">美食探索</text>
+
+  <rect x="188" y="15" width="72" height="90" rx="10" fill="white" stroke="#FDE68A" stroke-width="1"/>
+  <rect x="194" y="22" width="60" height="8" rx="3" fill="#6366F1"/>
+  <rect x="194" y="35" width="55" height="5" rx="2" fill="#FEF3C7"/>
+  <rect x="194" y="45" width="40" height="5" rx="2" fill="#FEF3C7"/>
+  <rect x="194" y="60" width="50" height="5" rx="2" fill="#FEF3C7"/>
+  <text x="224" y="88" text-anchor="middle" font-size="11" fill="#4F46E5" font-weight="bold">深度漫游</text>
+
+  <!-- 箭头 -->
+  <text x="140" y="130" text-anchor="middle" font-size="28" fill="#F59E0B">↓</text>
+  <!-- 选中卡片 -->
+  <rect x="60" y="150" width="160" height="32" rx="16" fill="#F59E0B"/>
+  <text x="140" y="170" text-anchor="middle" font-size="11" fill="white" font-weight="bold">← 点选最合适的方案 →</text>
+  <text x="140" y="195" text-anchor="middle" font-size="10" fill="#92400E">每方案 ≤10 字推荐理由</text>
+</svg>
